@@ -1,0 +1,65 @@
+html { 
+  background: url(/media/contrawlbg.png) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    
+   
+    
+}
+ .navitems {
+    
+    color: white;
+    list-style: none;
+    margin:0 ;
+    padding: 0;
+    text-align: center;
+
+}
+.navitems li {
+    
+    margin: auto;
+    padding: 15px 30px;
+    text-align: center;
+    display: inline-block;
+    color: white;
+       
+}
+.navitems a{
+    display: inline-block;
+}
+hr {
+    width: 70%;
+    background-color: white;
+    height:4px;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+.herotext{
+    margin-top: 15%;
+}
+.herotext h1{
+    color: white;
+    text-align: center;
+    font-size: 10em;
+}
+
+.imagecontain{
+    position: absolute;
+    z-index: 999;
+    position: absolute;
+    top: 0;
+}
